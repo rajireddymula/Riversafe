@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 name: deploy-aws-lambdaon:
+=======
+name: deploy-aws-lambda
+
+on:
+>>>>>>> eea2be0f93bf259cd99b39cb8a58eeed0afb3eb8
   push:
     branches:
       - master
