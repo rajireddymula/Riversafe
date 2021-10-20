@@ -12,6 +12,13 @@ Custom:
   pythonRequirements:
     dockerizepip: true
 
+package:
+  individually: false
+  exclude:
+    - package.json
+    - package-log.json
+    - node_modules/**
+
 functions:
   hello:
     handler: handler.hello
